@@ -1,50 +1,84 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yama</title>
-    <link 
-        rel="stylesheet"
-        href="./style.css"
-    />
+    <title>Yama Services</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Yama Services</h1>
-    <hr />
-    <h2>Motorcycle Lessons</h2>>
-    <a href="./public/about.html"><img src="./assets/images/motoComp.jpg" alt="Rodeo" style="width: 50%; height: auto;"/> </a>
-    <hr />
-    <!-- Add a link to your contact me page here -->
-    <a href="./public/contact.html">Contact Me</a>
-    <h2>Vacation Getaways</h2>
-    <img src="./assets/images/speedup.png" style="width: 55%;" alt="You Got This" />
-    <hr />
-    <h2>kishiArt</h2>
-    <img src="./assets/images/panorama.jpg" style="width: 75%;" alt="You Got This" />
-    <hr />
-    <h2>Birthday Parties</h2>
-    <img src="https://raw.githubusercontent.com/appbrewery/webdev/main/birthday-cake3.4.jpeg" style="width: 50%;" alt="birthday cake" \>
-    <h3>What I will bring:</h3>
-    <ul>
-        <li>Balloons</li>
-        <li>Cake</li>
-        <li>An appetite</li>
-    </ul>
-    <hr />
-    <h2>Where you can find me:</h2>
-    <!-- Example Google Maps Link -->
-    <iframe src="https://www.google.com/maps/embed?pb=!4v1747230650165!6m8!1m7!1sTqsq_l7xGKO_wd4icLSwlw!2m2!1d37.89079377372847!2d-122.2894545007312!3f345.32927736582536!4f-4.013625544601055!5f1.725675922300256" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <hr />
-    <h2>Helpful Movies to Watch</h2>
-    
-    <h3>Mission Impossible</h3>
-    <p>This movie will teach you how to find a ghost in a foreign country. </p>
-    <h3>Terminator</h3>
-    <p>This movie will teach you how to fight AI Robots.</p>
-    <h3>Rambo</h3>
-    <p>This movie will teach you survival skills if you have to run into the wilderness.</p>
+    <header>
+        <h1>Yama Services</h1>
+        <nav>
+            <a href="./public/contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="motorcycle-lessons">
+            <h2>Motorcycle Lessons</h2>
+            <a href="./public/about.html">
+                <img src="./assets/images/motoComp.jpg" alt="Motorcycle competition" style="width: 50%; height: auto;">
+            </a>
+        </section>
+
+        <hr>
+
+        <section id="vacation-getaways">
+            <h2>Vacation Getaways</h2>
+            <img src="./assets/images/speedup.png" style="width: 55%;" alt="Motorcycle adventure in a scenic location">
+        </section>
+
+        <hr>
+
+        <section id="kishi-art">
+            <h2>kishiArt</h2>
+            <img src="./assets/images/panorama.jpg" style="width: 75%;" alt="Panoramic landscape art">
+        </section>
+
+        <hr>
+
+        <section id="birthday-parties">
+            <h2>Birthday Parties</h2>
+            <img src="https://raw.githubusercontent.com/appbrewery/webdev/main/birthday-cake3.4.jpeg" style="width: 50%;" alt="Birthday cake">
+            <h3>What I will bring:</h3>
+            <ul>
+                <li>Balloons</li>
+                <li>Cake</li>
+                <li>An appetite</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="location">
+            <h2>Where you can find me:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1747230650165!6m8!1m7!1sTqsq_l7xGKO_wd4icLSwlw!2m2!1d37.89079377372847!2d-122.2894545007312!3f345.32927736582536!4f-4.013625544601055!5f1.725675922300256" 
+                width="400" height="300" style="border:0;" allowfullscreen loading="lazy">
+            </iframe>
+        </section>
+
+        <hr>
+
+        <section id="helpful-movies">
+            <h2>Helpful Movies to Watch</h2>
+            <article>
+                <h3>Mission Impossible</h3>
+                <p>This movie will teach you how to find a ghost in a foreign country.</p>
+            </article>
+            <article>
+                <h3>Terminator</h3>
+                <p>This movie will teach you how to fight AI Robots.</p>
+            </article>
+            <article>
+                <h3>Rambo</h3>
+                <p>This movie will teach you survival skills if you have to run into the wilderness.</p>
+            </article>
+        </section>
+
+    </main>
+
 </body>
 </html>

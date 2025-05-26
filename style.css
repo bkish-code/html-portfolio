@@ -40,3 +40,44 @@ strong {
   font-weight: 400;
   font-style: italic;
 }
+
+#kishi-art {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#kishi-art div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#kishi-art img {
+  width: 33%;
+  height: auto;
+  margin: 0;
+}
+
+section img {
+  margin-left: 20px;
+  width: 30%;
+  height: auto;
+}
+
+#motorcycle-lessons div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+section iframe {
+  margin-left: 20px;
+  width: 30%;
+  height: auto;
+  aspect-ratio: 4/3;
+}

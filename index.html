@@ -1,92 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yama Services</title>
-    <link rel="stylesheet" href="./style.css">
+html{
+  background-color: #ECFAE5;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-</head>
-<body>
+h1{
+  background-color: greenyellow;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
 
-    <header>
-        <h1><span>Yama Services</span></h1>
-        <nav>
-            <a href="./public/contact.html">Contact Me</a>
-        </nav>
-    </header>
+h2{
+  background-color: #B0DB9C;
+}
 
-    <main>
+span {
+  text-transform: uppercase;
+  font-size: .75em;
+}
 
-        <section id="motorcycle-lessons">
-            <h2>Motorcycle Lessons</h2>
-            <a href="./public/about.html">
-                <img src="./assets/images/motoComp.jpg" alt="Motorcycle competition" style="width: 30%; height: auto;">
-            </a>
-        </section>
+strong {
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.5em;
+}
 
-        <hr>
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-        <section id="vacation-getaways">
-            <h2>Vacation Getaways</h2>
-                <img src="./assets/images/speedup.png" style="width: 30%; height: auto;" alt="Road in a scenic location">
-        </section>
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
-        </section>
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
-        <hr>
+#kishi-art {
+  display: flex;
+  flex-direction: column;
+}
 
-        <section id="kishi-art">
-            <h2>kishiArt</h2>
-            
-            <div style="display: flex; gap: 10px;">
-                <img src="./assets/images/panorama.jpg" style="width: 30%; height: auto;" alt="Panoramic landscape art">
-                <img src="./assets/images/spacewalk.jpg" style="width: 30%; height: auto;" alt="Another planet vacation destination">
-            </div>
-        </section>
 
-        <hr>
+#kishi-art div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
 
-        <section id="birthday-parties">
-            <h2>Birthday Parties</h2>
-            <img src="./assets/images/birthday.png" style="width: 30%;" alt="Birthday">
-            <h3>What I will bring:</h3>
-            <ul>
-                <li>Balloons</li>
-                <li>Cake</li>
-                <li>An appetite</li>
-            </ul>
-        </section>
+#kishi-art img {
+  width: 33%;
+  height: auto;
+  margin: 0;
+}
 
-        <hr>
+section img {
+  margin-left: 20px;
+  width: 30%;
+  height: auto;
+}
 
-        <section id="location">
-            <h2>Where you can find me:</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!4v1747233951600!6m8!1m7!1sGkHJc3AW-vZMRkZAV_wR5g!2m2!1d37.85645954586805!2d-122.2530313348465!3f130.8298485657291!4f-4.3933246148105525!5f1.5370213448934535" width="450" height="338" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+#motorcycle-lessons div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  width: 100%;
+}
 
-        <hr>
-
-        <section id="helpful-movies">
-            <h2>Helpful Movies to Watch</h2>
-            <article>
-                <h3>Mission Impossible</h3>
-                <p>This movie will teach you how to find a ghost in a foreign country.</p>
-            </article>
-            <article>
-                <h3>Terminator</h3>
-                <p>This movie will teach you how to fight AI Robots.</p>
-            </article>
-            <article>
-                <h3>Rambo</h3>
-                <p>This movie will teach you survival skills if you have to run into the wilderness.</p>
-            </article>
-        </section>
-
-    </main>
-
-</body>
-</html>
+section iframe {
+  margin-left: 20px;
+  width: 30%;
+  height: auto;
+  aspect-ratio: 4/3;
+}

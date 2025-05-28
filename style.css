@@ -1,4 +1,7 @@
 html{
+  min-height: 100%;
+  margin: 5px;
+  padding: 5px;
   background-color: #ECFAE5;
 }
 
@@ -101,6 +104,11 @@ section iframe {
   text-align: center;
 }
 
+h2{
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
 p{
   display: block;
   width: 400px;
@@ -108,3 +116,41 @@ p{
   margin-left: 20px;
   text-align: left;
 }
+
+.photo-text-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.photo-text-container img {
+  width: 200px;
+  height: auto;
+  margin: 0;
+}
+
+.photo-text-container p {
+  width: auto;
+  margin: 0;
+  flex: 1;
+}
+
+.about-title {
+  background-color: #ADD8E6;
+}
+
+.about-page {
+  background-color: #E6F3FF;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.index-page {
+  background-color: #ECFAE5;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+

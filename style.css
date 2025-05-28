@@ -1,4 +1,7 @@
 html{
+  min-height: 100%;
+  margin: 5px;
+  padding: 5px;
   background-color: #ECFAE5;
 }
 
@@ -99,13 +102,98 @@ section iframe {
   width: 200px;
   height: 20px;
   text-align: center;
+  margin: 20px 0 20px 20px;
+}
+
+h2{
+  margin-left: 0px;
+  padding-left: 10px;
 }
 
 p{
   display: block;
   width: 400px;
   height: auto;
-  margin-left: 20px;
+  margin: 20px auto;
   text-align: left;
+}
+
+#helpful-movies article p {
+  width: 400px;
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.photo-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.photo-text-container img {
+  width: 30%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.photo-text-container p {
+  width: 400px;
+  margin: 20px auto;
+  flex: none;
+}
+
+.about-title {
+  background-color: #ADD8E6;
+}
+
+.about-page {
+  background-color: #E6F3FF;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.index-page {
+  background-color: #ECFAE5;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  width: 400px;
+  margin: 20px auto;
+  text-align: left;
+  list-style-position: inside;
+}
+
+.about-page ul {
+  width: 400px;
+  margin: 20px auto;
+  text-align: left;
+  list-style-position: inside;
+}
+
+.about-page ul li {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+/* Reset list styles for index page */
+.index-page ul,
+ul {
+  width: auto;
+  margin: 10px 20px;
+  text-align: left;
+  list-style-position: outside;
+}
+
+.index-page ul li,
+ul li {
+  margin: 5px 0;
+  padding-left: 0;
 }
 

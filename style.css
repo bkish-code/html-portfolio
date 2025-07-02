@@ -196,3 +196,66 @@ ul li {
   padding-left: 0;
 }
 
+.two-column-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.text-column {
+  flex: auto;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.video-column {
+  flex: auto;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.video-column iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  border: none;
+}
+
+.location-layout {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.map-box,
+.video-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.map-box iframe,
+.video-box iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+#gordo {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+
+
